@@ -29,9 +29,9 @@ app.use("/", googleRouter);
 app.use("/api/mail", router);
 app.use("/outlook", outlookRouter);
 
-app.get("/", async (req, res) => {
-   res.redirect("https://documenter.getpostman.com/view/31971527/2sA35D43FE")
-});
+//app.get("/", async (req, res) => {
+//   res.redirect("https://documenter.getpostman.com/view/31971527/2sA35D43FE")
+//});
 
 app.listen(process.env.PORT, () => {
   console.log(`Server is running on port http://localhost:${process.env.PORT}`);
